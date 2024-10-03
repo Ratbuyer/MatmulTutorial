@@ -1,9 +1,9 @@
 #include "common.h"
 #include "reference.h"
 
-const int testM = 4096;
-const int testN = 4096;
-const int testK = 4096;
+const int testM = 12288;
+const int testN = 16;
+const int testK = 12288;
 const int iters = 200;
 static constexpr int CLUSTER_M = 2;
 static constexpr int CLUSTER_N = 1;
